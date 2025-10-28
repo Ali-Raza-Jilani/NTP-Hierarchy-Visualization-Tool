@@ -18,7 +18,7 @@ cat << "EOF"
  ███████╗██║██║ ╚████║██████╔╝██║███████╗██║  ██║
  ╚══════╝╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝╚══════╝╚═╝  ╚═╝
 EOF
-echo -e "${MAGENTA}        Ultimate Subdomain Scanner        "
+echo -e "${MAGENTA}        Ultimate NTP Enumerator       "
 echo -e "${BLUE}               by Linbizer Security        ${RESET}"
 echo -e "${WHITE}------------------------------------------------${RESET}"
 
@@ -43,7 +43,7 @@ get_ntp_info() {
     echo "$ip $stratum $refid $version $system"
 }
 
-# Improved scan function
+# scan function
 scan_network() {
     echo -e "${YELLOW}[*] Scanning $target...${NC}"
     
